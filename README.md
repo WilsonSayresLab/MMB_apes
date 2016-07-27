@@ -32,7 +32,7 @@
 
 ***************************************************************************************************************************************
 
-##Mean and Confidence Intervals are calculated in two steps:
+##Mean and Confidence intervals are calculated in two steps:
 
 1. Generate bootstrap data (the program generates 1000 bootstrap files): **generate_bootstrap.R**	
 	This script creates 1000 bootstrap files for autosomes and 1000 bootstrap files for X chromosome	
