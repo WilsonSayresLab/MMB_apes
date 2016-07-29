@@ -34,8 +34,8 @@
 
 ##Mean and Confidence intervals are calculated in two steps:
 
-1. Generate bootstrap data (the program generates 1000 bootstrap files): **generate_bootstrap.R**	
-	This script creates 1000 bootstrap files for autosomes and 1000 bootstrap files for X chromosome	
+1. Generate bootstrap data (the program generates 1000 bootstrap replicates with replacement ): **generate_bootstrap.R**	
+	This script creates 1000 bootstrap replicates with replacement each for autosomes and X chromosome	
 
 2. Calculate confidence intervals: **CalculateMean_CI.R**	 
  	This script calculates the following:	
